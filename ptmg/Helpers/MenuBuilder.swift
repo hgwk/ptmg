@@ -33,7 +33,7 @@ final class MenuBuilder {
 
     private func addHeader(to menu: NSMenu, portsCount: Int, isScanStale: Bool) {
         let countText = portsCount > 0 ? " (\(portsCount))" : ""
-        let title = isScanStale ? "Port Manager\(countText) ⚠️" : "Port Manager\(countText)"
+        let title = isScanStale ? "ptmg\(countText) ⚠️" : "ptmg\(countText)"
         let titleItem = NSMenuItem(title: title, action: nil, keyEquivalent: "")
         titleItem.isEnabled = false
         menu.addItem(titleItem)

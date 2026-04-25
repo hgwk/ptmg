@@ -229,7 +229,7 @@ final class MenuBarController: NSObject, NSMenuDelegate, NSSearchFieldDelegate {
             symbolName = "network"
         }
 
-        button.image = NSImage(systemSymbolName: symbolName, accessibilityDescription: "Port Manager")
+        button.image = NSImage(systemSymbolName: symbolName, accessibilityDescription: "ptmg")
         button.image?.isTemplate = true
     }
 
