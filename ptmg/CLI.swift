@@ -121,7 +121,7 @@ struct CLI {
     }
 
     private static func printUsage() {
-        print("Usage: pm <command>")
+        print("Usage: ptmg <command>")
         print("")
         print("Commands:")
         print("  -l, --list          List all listening ports")
