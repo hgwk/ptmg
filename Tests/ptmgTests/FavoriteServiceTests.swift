@@ -1,5 +1,5 @@
 import XCTest
-@testable import PortManager
+@testable import ptmg
 
 final class FavoriteServiceTests: XCTestCase {
     override func setUp() {
