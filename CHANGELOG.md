@@ -14,7 +14,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Dynamic menu bar icon states (normal / low-power mode)
 - Launch at login support via `SMAppService`
 - Popover search with real-time port filtering
-- `pm` CLI companion with `-l`, `-w`, `-k` flags
+- CLI with `-l`, `-w`, `-k` flags
 - Port validation (1-65535) and PID validation (1-999999)
 - 10-second timeout on all subprocess execution
 - Explicit FileHandle resource cleanup
@@ -29,4 +29,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Verify process name matches before killing to prevent PID reuse attacks
 - Timeout all `lsof`/`ps`/`kill` calls to prevent indefinite hangs
 
-[1.0.0]: https://github.com/hgwk/PortManager/releases/tag/v1.0.0
+[1.0.0]: https://github.com/hgwk/ptmg/releases/tag/v1.0.0

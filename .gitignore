@@ -14,6 +14,8 @@ xcuserdata
 .vscode
 
 release
+.claude-duo
+PortManager.app
 
 APP_SPEC.md
 CLAUDE.md

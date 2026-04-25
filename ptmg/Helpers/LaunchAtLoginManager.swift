@@ -2,7 +2,7 @@ import Foundation
 import ServiceManagement
 import os
 
-private let logger = Logger(subsystem: "com.portmanager", category: "LaunchAtLogin")
+private let logger = Logger(subsystem: "com.ptmg", category: "LaunchAtLogin")
 
 @available(macOS 13.0, *)
 final class LaunchAtLoginManager {

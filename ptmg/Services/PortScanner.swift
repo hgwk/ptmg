@@ -1,7 +1,7 @@
 import Foundation
 import os
 
-private let logger = Logger(subsystem: "com.portmanager", category: "PortScanner")
+private let logger = Logger(subsystem: "com.ptmg", category: "PortScanner")
 
 final class PortScanner {
     private static let lsofMinimumColumnCount = 9

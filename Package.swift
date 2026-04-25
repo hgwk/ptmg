@@ -2,21 +2,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "PortManager",
+    name: "ptmg",
     platforms: [.macOS(.v13)],
     products: [
-        .executable(name: "PortManager", targets: ["PortManager"]),
-        .executable(name: "pm", targets: ["PortManager"])
+        .executable(name: "ptmg", targets: ["ptmg"])
     ],
     targets: [
         .executableTarget(
-            name: "PortManager",
-            path: "PortManager"
+            name: "ptmg",
+            path: "ptmg"
         ),
         .testTarget(
-            name: "PortManagerTests",
-            dependencies: ["PortManager"],
-            path: "Tests/PortManagerTests"
+            name: "ptmgTests",
+            dependencies: ["ptmg"],
+            path: "Tests/ptmgTests"
         )
     ]
 )

@@ -9,7 +9,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         self.statusItem = newStatusItem
 
         if let button = newStatusItem.button {
-            button.image = NSImage(systemSymbolName: "network", accessibilityDescription: "Port Manager")
+            button.image = NSImage(systemSymbolName: "network", accessibilityDescription: "ptmg")
             button.image?.isTemplate = true
         }
 
@@ -21,7 +21,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 let arguments = CommandLine.arguments
 let executableName = URL(fileURLWithPath: arguments[0]).lastPathComponent
 
-if executableName == "pm" || arguments.count > 1 {
+if executableName == "ptmg" || arguments.count > 1 {
     CLI.run(arguments: arguments)
 } else {
     let app = NSApplication.shared

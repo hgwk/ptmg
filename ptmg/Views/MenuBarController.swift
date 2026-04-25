@@ -1,7 +1,7 @@
 import Cocoa
 import os
 
-private let logger = Logger(subsystem: "com.portmanager", category: "MenuBarController")
+private let logger = Logger(subsystem: "com.ptmg", category: "MenuBarController")
 
 enum SortOption: String, CaseIterable {
     case port = "Port Number"

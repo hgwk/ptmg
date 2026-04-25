@@ -1,6 +1,6 @@
-# PortManager
+# ptmg
 
-macOS menu bar app for port monitoring with `pm` CLI companion.
+macOS menu bar app for port monitoring.
 
 ## Features
 
@@ -9,7 +9,7 @@ macOS menu bar app for port monitoring with `pm` CLI companion.
 - **Dynamic icon states** — Changes appearance in low-power mode
 - **Launch at login** — SMAppService integration
 - **Popover search** — Real-time filtering of ports
-- **`pm` CLI** — List (`-l`), watch (`-w`), kill (`-k`) commands
+- **CLI** — List (`-l`), watch (`-w`), kill (`-k`) commands
 
 ## Security Hardening
 
@@ -26,21 +26,20 @@ macOS menu bar app for port monitoring with `pm` CLI companion.
 # Build from source
 swift build -c release
 
-# Or copy prebuilt binaries
-cp PortManager /usr/local/bin/
-cp pm /usr/local/bin/
+# Or copy prebuilt binary
+cp ptmg /usr/local/bin/
 ```
 
 ## Usage
 
 ### GUI
-Double-click `PortManager` to run as menu bar app.
+Double-click `ptmg` to run as menu bar app.
 
 ### CLI
 ```bash
-pm --list          # List all listening ports
-pm --watch 3000    # Watch port 3000 for changes
-pm --kill 3000     # Kill process on port 3000
+ptmg --list          # List all listening ports
+ptmg --watch 3000    # Watch port 3000 for changes
+ptmg --kill 3000     # Kill process on port 3000
 ```
 
 ## Build
